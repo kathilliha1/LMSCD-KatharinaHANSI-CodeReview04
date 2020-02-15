@@ -4,6 +4,6 @@ $(".like-button").on("click", function(e) {
     $counter.text(count + 1); //set new number
 });
 
- $('.col-lg-5').sort( function(a, b) {
+$('.col-lg-5').sort( function(a, b) {
         return $(b).find(".count").text() - $(a).find(".count").text();
     }).appendTo('#movies');
